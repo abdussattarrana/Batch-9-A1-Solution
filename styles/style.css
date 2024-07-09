@@ -50,7 +50,6 @@ body{
 .second-section-container{
     width: 802.9px;
     height: 806px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 90px;
     
@@ -89,4 +88,408 @@ body{
 .image-container img{
     width: 100%;
     height: 100%;
+}
+
+/* midnigh party style starts here */
+
+.midnight-party-container{
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    background-image: url(/images/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.left-side-content{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.left-side-content h1{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+}
+.left-side-content p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-bottom: 10px;
+
+}
+#midnight-button{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 400px;
+}
+
+
+
+.right-side-content{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side-content img{
+    width: 349.16px;
+    height: 464.65px;
+}
+
+/* event style starts here */
+.event-container{
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.event p{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+#event-p{
+    color: red;
+}
+#event-btn{
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    width: 103px;
+    height: 24px;
+    border-radius: 8px;
+    padding: 16px 32px 16px 32px;
+    text-align: center;
+}
+
+/* new best offer style starts here */
+.new-best-offer-container{
+    width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+
+}
+.left-new-best-content{
+    width: 393px;
+    height: 255px;
+}
+.left-new-best-content h4{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+}
+.left-new-best-content h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+}
+.left-new-best-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.mid-new-best-content{
+    width: 463px;
+    height: 463px;
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 360px 360px 360px 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.circle-content{
+    width: 364.84px;
+    height: 364.84px;
+    border-radius: 360px 360px 360px 360px;
+    background-image: url(/images/happy-new-offer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right-new-best-content{
+    width: 276px;
+    height: 170px;
+    margin-top: -80px;
+}
+.right-new-best-content h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+.right-new-best-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.img-new-best-content{
+    margin-top: 50px;
+}
+
+/* holiday section styles starts here */
+.holiday-section-container{
+    width: 1320px;
+    height: 986.07px;
+    margin: 0 auto;
+    position: relative;
+
+}
+.holiday-text-container{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.holiday-text-container h5{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.holiday-text-container h1{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    color: rgb(7, 2, 17);
+}
+#holiday-h1{
+    color: rgb(255, 0, 0);
+}
+.holiday-text-container p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.solid-color{
+    width: 1320px;
+    height: 229px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 77%;
+}
+.gift-box{
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+}
+/* .gift-box img{
+    mix-blend-mode: difference;
+} */
+.discount{
+    position: absolute;
+    bottom: 30%;
+    left: 75%;
+}
+
+/* portfolio style start here */
+.portfolio-container{
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.portfolio-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.portfolio-container h5{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-bottom: 4px;   
+}
+.portfolio-container h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px; 
+    margin-bottom: 4px;
+}
+.portfolio-container p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    margin-bottom: 4px;
+    margin-bottom: 50px;
+}
+.item{
+    width: 424px;
+    height: 450px;
+}
+.item img{
+    width: 100%;
+    height: 100%;
+}
+
+/* subscribe style starts here */
+.subscribe-container{
+    width: 1320px;
+    height: 616px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-image{
+    width: 150px;
+    height: 150px;
+}
+.subscribe-image img{
+    width: 100%;
+    height: 100%;
+}
+.subscribe-content{
+    text-align: center;
+}
+.subscribe-content h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+}
+.subscribe-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.subscribe-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.subscribe-form{
+    width: 648px;
+    height: 72px;
+    display: flex;
+    border: none;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.subscribe-form input[type="email"]{
+    border: none;
+    padding: 10px 15px;
+    outline: none;
+    flex: 1;
+}
+.subscribe-form button{
+    background-color: rgb(255, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+/* footer content style starts here */
+.footer-container{
+    width: 1320px;
+    height: 609px;
+    background: rgb(7, 2, 17);
+    margin: 0 auto;
+    padding-top: 80px;
+    color: #ffffff;
+}
+.footer-first-section{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+
+}
+
+.contact{
+    display: flex;
+}
+.contact i{
+    line-height: 40px;
+}
+.hr{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.social-icons{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-end-text{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
